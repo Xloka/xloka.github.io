@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Post"
+title:  "Second Post"
 date:   2015-12-29 07:11:09 +0200
 categories: Random
 ---
