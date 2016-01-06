@@ -21,4 +21,4 @@ I love Tumblr so I enjoyed creating two tumblr themes and I wish to increase tha
 it's me proving that Javascript is better than JAVA ;)
 
 ## another websites
-[http://ikancode.com](Ikancode.com) ( CTO , Co-founder ) , Hackforward.ninja ( trying to live free as a Developer ) , etc.
+[Ikancode.com](http://ikancode.com) ( CTO , Co-founder ) , Hackforward.ninja ( trying to live free as a Developer ) , etc.
