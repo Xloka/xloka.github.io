@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-#Summery
+# just a Developer Story 
 
 My name is Ahmed Saleh ( **Xloka** ) I work as **Full-stack Web Developer** since 2012 .
 I love PHP , Javascript , Perl , Python , Ruby.
