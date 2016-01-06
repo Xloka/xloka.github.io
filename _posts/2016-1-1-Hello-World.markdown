@@ -13,6 +13,7 @@ Welcome to my blog as You know I am a Developer so everything in my life should 
 
 ### Why ?
 Not so good reasons but they made me make it :
+
 * I love to express myself where no one have the interest to read but the very few who really want to .
 * Escaping from the noise of social media.
 * it's a dream , to write my thoughts in my text editor and publish them using my terminal.WOW.
@@ -23,4 +24,4 @@ Not so good reasons but they made me make it :
 ### Subscribe
 I will post every day if I could , sharing something I learned or something I enjoyed working at
 
-thanks for reaching to this point , leave a comment or go make something amazing :P 
+thanks for reaching to this point , leave a comment or go make something amazing :P
