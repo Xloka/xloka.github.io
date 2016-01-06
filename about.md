@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-# just a Developer Story 
+# just a Developer Story
 
 My name is Ahmed Saleh ( **Xloka** ) I work as **Full-stack Web Developer** since 2012 .
 I love PHP , Javascript , Perl , Python , Ruby.
@@ -21,4 +21,4 @@ I love Tumblr so I enjoyed creating two tumblr themes and I wish to increase tha
 it's me proving that Javascript is better than JAVA ;)
 
 ## another websites
-Ikancode.com ( CTO , Co-founder ) , Hackforward.ninja ( trying to live free as a Developer ) , etc.
+['http://ikancode.com'](Ikancode.com) ( CTO , Co-founder ) , Hackforward.ninja ( trying to live free as a Developer ) , etc.
