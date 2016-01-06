@@ -9,7 +9,6 @@ categories: Thoughts
 
 Welcome to my blog as You know I am a Developer so everything in my life should start with **Hello World** . it's one of my beloved habits and I'm willing to keep it ;)
 
----
 
 ### Why ?
 Not so good reasons but they made me make it :
@@ -19,7 +18,6 @@ Not so good reasons but they made me make it :
 * it's a dream , to write my thoughts in my text editor and publish them using my terminal.WOW.
 * I love github and I want to be related to it's era ;)
 
----
 
 ### Subscribe
 I will post every day if I could , sharing something I learned or something I enjoyed working at
