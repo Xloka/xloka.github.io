@@ -16,6 +16,7 @@ Just my First Try to build wordpress theme .
 
 ## Tumblr themes
 I love Tumblr so I enjoyed creating two tumblr themes and I wish to increase that number in the future
+if you are interested go to [my themes](https://www.tumblr.com/themes/by/xloka)
 
 ## Mobile APP ( Koletak )
 it's me proving that Javascript is better than JAVA ;)
