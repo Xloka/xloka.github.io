@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2016-01-01 11:01:00 +0200
 categories: Thoughts
+img: /img/1.jpg
 ---
 
 #Hello World Post
