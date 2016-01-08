@@ -1,33 +1,56 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="blog__posts mdl-grid">
+<div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col"  itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="mdl-card__media mdl-color-text--grey-50" style="background: url({{ page.img | prepend: site.baseurl }});height: 280px;">
+              <h3>{{ page.title }}</h3>
+            </div>
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+              <div class="minilogo"></div>
+              <div>
+                <strong>{{ site.title  }}</strong>
+                <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
+              </div>
+              <div class="section-spacer"></div>
+            <!---  <div class="meta__favorites">
+                425 <i class="material-icons" role="presentation">favorite</i>
+                <span class="visuallyhidden">favorites</span>
+              </div>
+              <div>
+                <i class="material-icons" role="presentation">bookmark</i>
+                <span class="visuallyhidden">bookmark</span>
+              </div>
+              <div>
+                <i class="material-icons" role="presentation">share</i>
+                <span class="visuallyhidden">share</span>
+              </div>
+            -->
+            </div>
+            <div class="mdl-color-text--grey-700 art">
+                <p>
+                  {{ content }}
+                </p>
+            </div>
+            <div class="mdl-color-text--primary-contrast mdl-card__supporting-text comments">
+              <div id="disqus_thread"></div>
+              <script>
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
 
-  <header class="post-header" style="background: url({{ page.img | prepend: site.baseurl }})">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+              s.src = '//xlokagithubio.disqus.com/embed.js';
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-</article>
-<div id="disqus_thread"></div>
-<script>
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-
-s.src = '//xlokagithubio.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+          </div>
+</div>
