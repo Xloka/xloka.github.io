@@ -53,6 +53,7 @@
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
+          margin-bottom: 100px;
 }
 .mdl-card {
   display: -webkit-box;
@@ -226,6 +227,11 @@
      -ms-flex-align: center;
          align-items: center;
 }*/
+.mdl-mini-footer{
+  a{
+    color:inherit;
+  }
+}
 .loading{
   position: fixed;
   z-index: 999;

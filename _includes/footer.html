@@ -1,6 +1,6 @@
 <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
-    <div class="mdl-logo"> {{ site.title }}  ||  {{ site.description }}</div>
+    <div class="mdl-logo"><a href="{{ site.url }}"> {{ site.title }}  &copy;</a>  </div>
     <ul class="mdl-mini-footer__link-list">
 
       {% if site.github_username %}
@@ -14,6 +14,8 @@
       </li>
       {% endif %}
       <li><a href="tel:00201140638928">+201140638928</a></li>
+      <li><a href="mailto:a.saleh.ismael@gmail.com">a.saleh.ismael@gmail.com</a></li>
+      <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
     </ul>
   </div>
 </footer>

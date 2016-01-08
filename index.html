@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
@@ -24,25 +24,9 @@ layout: default
                   <span>{{ post.date | date: "%b %-d, %Y" }}</span>
                 </div>
               </div>
-
-
-
-
-
-
-
-          <h2>
-            <a class="post-link" href=""></a>
-          </h2>
-          <span class="post-meta"></span>
-        </div>
     {% endfor %}
   </div>
 
-  <div class="rss-subscribe">
-    <p>
-      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-    </p>
-  </div>
+
 
 </div>
