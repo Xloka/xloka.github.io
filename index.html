@@ -10,6 +10,20 @@ layout: home
       <p>
         {{ site.description }}
       </p>
+      <p>
+        {% if site.github_username %}
+        <a target="_blank" href="https://github.com/{{ site.github_username }}" ><span class="fa fa-github"></span></a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><span class="fa fa-twitter"></span></a>
+        {% endif %}
+        {% if site.facebook_url %}
+        <a target="_blank" href="{{ site.facebook_url }}"><span class="fa fa-facebook"></span></a>
+        {% endif %}
+        {% if site.tumblr_url %}
+        <a target="_blank" href="{{ site.tumblr_url }}"><span class="fa fa-tumblr"></span></a>
+        {% endif %}
+      </p>
   </div>
 </div>
 

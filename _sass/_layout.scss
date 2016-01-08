@@ -292,12 +292,15 @@
     left: calc(50% - 64px);
     border: solid;
   }
-  h2,p{
+  h2,p,a{
     color: inherit;
 
   }
   p{
     font-size: 20px;
+  }
+  a{
+    padding: 20px;
   }
 }
 }

@@ -14,6 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xloka.github.io" # the base hostname & protocol for your site
 twitter_username: mrxloka
 github_username:  Xloka
+facebook_url:  "https://www.facebook.com/xlokacom"
+tumblr_url:  "http://xloka.hackforward.ninja/"
 profileimg: "/img/xloka-profile.jpg"
 # Build settings
 markdown: kramdown
