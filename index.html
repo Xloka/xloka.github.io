@@ -3,8 +3,16 @@ layout: home
 ---
 
 <div class="home">
+  <div class="mini">
+  <div class="minipro wow bounceInUp">
+      <img src="{{ site.profileimg | prepend: site.baseurl }}" alt="profileimg" />
+      <h2>{{ site.title }}</h2>
+      <p>
+        {{ site.description }}
+      </p>
+  </div>
+</div>
 
-  <h1 class="page-heading wow fadeIn">Posts</h1>
 
   <div class="blog__posts mdl-grid">
     {% for post in site.posts %}
@@ -24,9 +32,8 @@ layout: home
                   <span>{{ post.date | date: "%b %-d, %Y" }}</span>
                 </div>
               </div>
+                </div>
     {% endfor %}
-  </div>
 
-
-
+</div>
 </div>

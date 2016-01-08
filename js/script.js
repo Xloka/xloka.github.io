@@ -16,6 +16,16 @@ $(document).ready(function() {
 
 
   $('.loading').slideUp('slow');
-
+  $('.mdl-layout__content').scroll(function() {
+		        if( $('.mdl-layout__content').scrollTop() > 10 ){
+		        	$('.mdl-layout__header-row').css({
+		        		'background-color': '#000'
+		        	});
+		       }else{
+		       	    $('.mdl-layout__header-row').css({
+		       	    	'background-color': 'transparent'
+		       	    });
+		       }
+		     });
 
 });

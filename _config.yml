@@ -9,11 +9,11 @@
 title: Xloka
 email: a.saleh.ismael@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Full-stack Web Developer.
+  Full-stack Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xloka.github.io" # the base hostname & protocol for your site
 twitter_username: mrxloka
 github_username:  Xloka
-
+profileimg: "/img/xloka-profile.jpg"
 # Build settings
 markdown: kramdown
