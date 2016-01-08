@@ -40,6 +40,192 @@
     color: #fff;
   }
 }
+
+.blog__posts {
+  max-width: 900px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.mdl-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  min-height: 360px;
+}
+.mdl-card__title {
+ padding: 16px;
+ -webkit-box-flex: 1;
+ -webkit-flex-grow: 1;
+     -ms-flex-positive: 1;
+         flex-grow: 1;
+}
+.mdl-card__media {
+  box-sizing: border-box;
+  background-size: cover;
+  padding: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: pointer;
+}
+.mdl-card__media a,
+.mdl-card__title a {
+  color: inherit;
+}
+.mdl-card__supporting-text {
+ width: 100%;
+ padding: 16px;
+ min-height: 64px;
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: center;
+ -webkit-align-items: center;
+     -ms-flex-align: center;
+         align-items: center;
+}
+.mdl-card__media ~ .mdl-card__supporting-text {
+ min-height: 64px;
+}
+.mdl-card__supporting-text:not(:last-child) {
+ box-sizing: border-box;
+ min-height: 76px;
+}
+
+
+.mdl-card__supporting-text ~ .mdl-card__supporting-text {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
+
+.mdl-card__actions:first-child {
+ margin-left: 0;
+}
+
+.meta {
+  box-sizing: border-box;
+  padding: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: auto;
+}
+.meta > .meta__favorites{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.meta > .meta__favorites .material-icons {
+  font-size: 2em;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.mdl-card .meta.meta--fill {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.meta > *:first-child {
+  margin-right: 16px;
+}
+.meta > * {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mdl-card__supporting-text strong {
+  font-weight: 400;
+}
+.minilogo {
+    width: 44px;
+    height: 44px;
+    background-image: url('../img/xloka-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    border-radius: 22px;
+    background-color: #F5F5F5;
+}
+/*
+.mdl-card__media {
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+ -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+         flex-direction: column;
+ -webkit-box-pack: center;
+ -webkit-justify-content: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -webkit-box-align: center;
+ -webkit-align-items: center;
+     -ms-flex-align: center;
+         align-items: center;
+}*/
 .loading{
   position: fixed;
   z-index: 999;

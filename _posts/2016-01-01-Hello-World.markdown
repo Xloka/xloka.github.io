@@ -4,6 +4,7 @@ title:  "Hello World"
 date:   2016-01-01 11:01:00 +0200
 categories: Thoughts
 img: /img/1.jpg
+mcontent: Welcome to my blog as You know I am a Developer so everything in my life should start with 
 ---
 
 #Hello World Post
